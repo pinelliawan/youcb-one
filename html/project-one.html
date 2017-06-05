@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <title>方案一</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/jquery-1.5.1.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<div class="you-wrap">
+    <div class="project-module">
+        <div class="project-module-a1">
+            <h2>报价清单</h2>
+            <p>李先生    120㎡  2室1厅1卫1厨</p>
+        </div>
+        <div class="project-module-a1">
+            <h4>装修总价</h4>
+            <p><span>￥179，999</span>共58项</p>
+            <a href="#">VR展示</a>
+        </div>
+    </div>
+
+    <ul class="project-list">
+        <li class="project-list-title">
+            <h3>客厅</h3>
+            <p>面积：24㎡<span>共1项</span></p>
+        </li>
+        <li>
+            <div class="project-list-div">
+                <div class="project-list-div-img">
+                    <img src="../images/you-project-01.jpg">
+                </div>
+                <div class="project-list-div-rig">
+                    <p>
+                        类别：瓷砖 </br>
+                        名称：东鹏JG199-01 </br>
+                        规格：300 x 300</br>
+                        订货量：15
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="project-list-title">
+            <h3>厨房</h3>
+            <p>面积：14㎡<span>共2项</span></p>
+        </li>
+        <li>
+            <div class="project-list-div">
+                <div class="project-list-div-img">
+                    <img src="../images/you-project-01.jpg">
+                </div>
+                <div class="project-list-div-rig">
+                    <p>
+                        类别：瓷砖 </br>
+                        名称：东鹏JG199-01 </br>
+                        规格：300 x 300</br>
+                        订货量：15
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="project-list-div project-list-taps">
+                <div class="project-list-div-img">
+                    <img src="../images/you-project-01.jpg">
+                </div>
+                <div class="project-list-div-rig">
+                    <p>
+                        类别：整体橱柜 </br>
+                        名称：欧琳橱柜3+1套餐双饰面-001</br>
+                        规格：300 x 300</br>
+                        订货量：1
+                    </p>
+                    <span class="project-list-child">查看子件</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!--------->
+    <div class="project-child-div">
+        <div class="project-list-child-div">
+            <div class="project-list-child-top">
+                <h2>整体橱柜</h2>
+                <img class="project-list-child-top-img" src="../images/you-icon-03.png">
+            </div>
+            <ul class="project-list-child-ul">
+                <li>
+                    <p>子件名称</p>
+                    <span>数量</span>
+                </li>
+                <li>
+                    <p>韩丽双上翻门吊柜柜体C6070-双上翻门</p>
+                    <span>1</span>
+                </li>
+                <li>
+                    <p>韩丽双上翻门吊柜柜体C6070-双上翻门</p>
+                    <span>1</span>
+                </li>
+                <li>
+                    <p>韩丽双上翻门吊柜柜体C6070-双上翻门</p>
+                    <span>1</span>
+                </li>
+                <li>
+                    <p>韩丽双上翻门吊柜柜体C6070-双上翻门</p>
+                    <span>1</span>
+                </li>
+                <li>
+                    <p>韩丽双上翻门吊柜柜体C6070-双上翻门</p>
+                    <span>1</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".project-list-child-top-img").click(function(){
+            $(".project-child-div").hide();
+        });
+        $(".project-list-child").click(function(){
+            $(".project-child-div").show();
+        });
+    });
+</script>
+</body>
+</html>

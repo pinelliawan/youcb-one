@@ -1,0 +1,346 @@
+.you-body {
+    height : 100%;
+    background : #eee;
+}
+.you-wrap {
+    overflow : hidden;
+    font-family : "Microsoft YaHei ", serif;
+}
+.reg-one {
+    height : 13em;
+    text-align : center;
+}
+.reg-one img {
+    width : 60%;
+    margin-top : 5em;
+}
+.reg-two {
+    overflow : hidden;
+    margin : 0 auto;
+    width : 96%;
+    border-radius : 8px;
+}
+.reg-two li {
+    height : 5em;
+    line-height : 5em;
+    vertical-align : middle;
+    background : #fff;
+    border : #eee solid 1px;
+}
+.reg-two li:first-child {
+    border-bottom : none;
+}
+.reg-two li img {
+    display : inline;
+    width : 5%;
+    vertical-align : middle;
+    margin-left : 2em;
+}
+.reg-two li input {
+    width : 50%;
+    height : 3.2em;
+    font-size : 1.2em;
+    color : #9c9c9c;
+    padding-left : 0.5em;
+    vertical-align : middle;
+    outline : none;
+    border : none;
+}
+.reg-two li:nth-child(2) input:last-child {
+    width : 28%;
+    height : 2.5em;
+    font-size : 0.9em;
+    color : #9c9c9c;
+    vertical-align : middle;
+    border : #eee solid 1px;
+    border-radius : 3px;
+    background : #fff;
+    padding : 0;
+}
+.reg-three {
+    margin : 0 auto;
+    width : 96%;
+    padding-top : 3em;
+}
+.reg-three input {
+    width : 100%;
+    height : 3em;
+    font-size : 1.6em;
+    color : #fff;
+    border : none;
+    border-radius : 3px;
+    background : #ff8200;
+}
+
+/*----project----*/
+.project-one {
+    overflow : hidden;
+}
+.project-one img {
+    width : 100%;
+}
+
+.menuList img {
+    display: inline;
+    margin-left: 10%;
+    width : 5%;
+    vertical-align : middle;
+}
+.menuList {
+    background : #fff;
+}
+.menuList li {
+    border-bottom : 0.3em solid #eee;
+}
+.menuList li a {
+    display: inline;
+    height : 3.5em;
+    line-height : 3.5em;
+    font-weight : bold;
+    font-size : 1.1em;
+    color : #000;
+    vertical-align : middle;
+    background : #fff;
+}
+.menuList li a:hover{
+    color: #ff670f;
+}
+.project-three img{
+    width: 50%;
+    position: absolute;
+    bottom: 8%;
+    left: 25%;
+}
+/*---project-one---*/
+.project-module {
+    padding : 1.5em 3%;
+    border-bottom : 1px solid #333;
+}
+.project-module-a1 h2 {
+    font-size : 1.2em;
+    color : #666;
+}
+.project-module-a1 p {
+    display : inline;
+    line-height : 1.5em;
+    font-size : 1em;
+    color : #aaa;
+}
+.project-module-a1 h4 {
+    margin : 0.6em 0 0.4em 0;
+    font-size : 1em;
+    color : #666;
+}
+.project-module-a1 span {
+    margin-right : 0.5em;
+    font-size : 1.4em;
+    color : #ff670f;
+    font-weight : bold;
+}
+.project-module-a1 a {
+    margin-top : -0.8em;
+    display : inline-block;
+    float : right;
+    width : 6.5em;
+    height : 2em;
+    line-height : 2em;
+    text-align : center;
+    border-radius : 5px;
+    font-size : 1.3em;
+    color : #fff;
+    background : #ff670f;
+}
+.project-list li {
+    margin : 0 auto;
+    width : 94%;
+}
+.project-list li:last-child {
+    margin-bottom : 3em;
+}
+.project-list-title {
+    height : 3.5em;
+    line-height : 3.5em;
+}
+.project-list-title h3 {
+    display : inline;
+    font-size : 1em;
+    color : #666;
+}
+.project-list-title p {
+    margin-left : 0.5em;
+    display : inline;
+    font-size : 0.9em;
+    color : #aaa;
+}
+.project-list-title span {
+    margin-left : 0.5em;
+    color : #9c9c9c;
+}
+.project-list-div {
+    overflow : hidden;
+    padding : 1em 1.2em;
+    border : #e4e4e7 solid 1px;
+    background : #fffcfa;
+}
+.project-list-div-img {
+    float : left;
+    width : 40%;
+}
+.project-list-div-img img {
+    width : 90%;
+}
+.project-list-div-rig {
+    float : left;
+    width : 60%;
+}
+.project-list-div-rig p {
+    color : #666;
+    line-height : 1.6em;
+}
+.project-list-taps {
+    border-top : none;
+}
+.project-list-child {
+    float : right;
+    display : block;
+    width : 6em;
+    height : 2em;
+    line-height : 2em;
+    text-align : center;
+    border : #e4e4e7 solid 1px;
+    border-radius : 5px;
+}
+.project-child-div {
+    overflow : hidden;
+    display : none;
+    position : fixed;
+    top : 10%;
+    z-index : 11;
+    width : 100%;
+    background : #fff;
+    overflow-y : scroll;
+}
+.project-list-child-div {
+    width : 94%;
+    margin : auto;
+    border : #6b6b6b solid 2px;
+    border-radius : 5px;
+    background : #fff;
+}
+.project-list-child-top {
+    margin : 0 2%;
+    height : 3.75em;
+    line-height : 3.75em;
+}
+.project-list-child-top h2 {
+    float : left;
+    display : block;
+    width : 92%;
+    text-align : center;
+    font-size : 1.2em;
+    color : #6b6a69;
+}
+.project-list-child-top img {
+    float : right;
+    margin : 1em 0 0 0;
+}
+.project-list-child-ul {
+    overflow : hidden;
+    margin : 0 2%;
+}
+.project-list-child-ul li {
+    height : 2.8em;
+    line-height : 2.8em;
+    text-align : center;
+    border : #e4e4e7 solid 1px;
+    border-bottom : none;
+}
+.project-list-child-ul li:first-child {
+    color : #fff;
+    background : #333;
+    margin-bottom : 1em;
+}
+.project-list-child-ul li:last-child {
+    border-bottom : 1px solid #e4e4e7;
+    margin-bottom : 3em;
+}
+.project-list-child-ul li p {
+    float : left;
+    display : block;
+    width : 85%;
+}
+.project-list-child-ul li span {
+    width : 11%;
+}
+/*----media-----*/
+@media screen and (min-width: 230px) {
+    body {
+        font: normal 50% Helvetica, Arial,sans-serif;
+        font-family: "Microsoft YaHei ", serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        font: normal 85% Helvetica, Arial,sans-serif;
+        font-family: "Microsoft YaHei ", serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-size: 0.75em;
+    }
+}
+@media screen and (min-width: 350px) {
+    body {
+        font: normal 90% Helvetica, Arial,sans-serif;
+        font-family: "Microsoft YaHei ", serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-size: 0.85em;
+    }
+}
+@media screen and (min-width: 370px) {
+    body {
+        font: normal 95% Helvetica, Arial, sans-serif;
+        font-family: "Microsoft YaHei ", serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-size: 0.9em;
+    }
+}
+@media screen and (min-width: 390px) {
+    body {
+        font: normal 100% Helvetica, Arial, sans-serif;
+        font-family: "Microsoft YaHei ", serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-size: 1em;
+    }
+}
+@media screen and (min-width: 430px) {
+    body {
+        font: normal 120% Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-family: "Microsoft YaHei ", serif;
+        font-size: 1.1em;
+    }
+}
+@media screen and (min-width: 450px) {
+    body {
+        font: normal 140% Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: none;
+        font-family: "Microsoft YaHei ", serif;
+        font-size: 1.2em;
+    }
+}
